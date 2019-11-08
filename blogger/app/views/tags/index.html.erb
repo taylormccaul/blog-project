@@ -2,6 +2,6 @@
 
 <ul>
   <% @tags.each do |tag| %>
-    <li><%= link_to tag.name, tag_path(tag), class: 'tag_name', id: "tag_#{tag.id}" %></li>
+    <li><%= link_to tag.name, tag_path(tag), class: "tag_name", id: "tag_#{tag.id}" %></li>
   <% end %>
 </ul>

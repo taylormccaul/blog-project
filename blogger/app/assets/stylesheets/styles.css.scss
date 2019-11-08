@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Oswald|Righteous|Roboto+Condensed&display=swap');
+
+$primary_color: #ddd;
+
+body {
+  background-color: $primary_color;
+}
+
+a {
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  width: 75%;
+  background: #eee;
+  border: 1px solid black;
+  text-align: center;
+}
